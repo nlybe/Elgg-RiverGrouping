@@ -1,0 +1,50 @@
+/**
+ * Elgg River Grouping plugin
+ * @package river_grouping
+ */
+
+.river_more_link {
+    padding: 3px 5px;
+    font-size: 90%;
+}
+.river_more_block {
+    display: none;
+    padding: 10px 0 10px 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.river_more_box {
+    clear: both;
+    width: 100%;
+    display: block;
+    text-align: right;
+    margin: 0 0 5px;    
+}
+
+.river_more_box .river_more_block{
+    text-align: left;
+}
+
+.item_id {
+    display: none;
+}
+
+.river_btn_down::after, .river_btn_up::after {
+    font-family: FontAwesome;
+    margin-left: 10px;
+}
+
+.river_btn_down::after {
+    content: "\f063";
+}
+
+.river_btn_up::after {
+    content: "\f062";
+}
+
+.river_more_link:hover {
+    text-decoration: none;
+}
+
